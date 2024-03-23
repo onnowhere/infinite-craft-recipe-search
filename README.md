@@ -1,10 +1,20 @@
 # Infinite Craft Recipe Search
 Find the most optimal way to craft an item in Infinite Craft and generate a visual graph in seconds
 
-# Setup
-- `pip install requirements.txt`
-- Recipe graph display requires Graphviz to be installed: https://graphviz.org/download/
-    - `Graphviz/bin` folder must be added to `PATH` in Environment Variables
+# Requirements
+For recipe graph display to work:
+- Install Graphviz: https://graphviz.org/download/
+- `Graphviz/bin` folder must be added to `PATH` in Environment Variables in Windows
+
+# Install
+For Windows, you can directly download the recipes and executables from the Release page: https://github.com/onnowhere/infinite-craft-recipe-search/releases/latest
+
+Alternatively, you can clone and install from source with Python 3.
+```
+git clone https://github.com/onnowhere/infinite-craft-recipe-search
+cd infinite-craft-recipe-search
+pip install -r requirements.txt
+```
 
 # Usage
 - [OPTIONAL] If you would like newer recipes, run `update_recipe_tree.py`

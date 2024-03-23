@@ -4,11 +4,6 @@ version = "1.0.0"
 
 import os
 import json
-import networkx as nx
-import matplotlib.pyplot as plt
-from collections import defaultdict
-from networkx.drawing.nx_agraph import graphviz_layout
-from networkx.drawing.nx_pydot import pydot_layout
 
 def add_recipe_paths_recursive(recipe_tree, scanned, recipe, result):
     if result in scanned:
